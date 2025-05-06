@@ -8,6 +8,7 @@
 - модульное тестирование
 - [IDEA](https://www.jetbrains.com/help/idea/2024.1/getting-started.html)
 - [Основы GIT](https://docs.github.com/ru)
+- [Checkstyle](https://www.oracle.com/java/technologies/javase/codeconventions-introduction.html)
 
 Литература:
 
@@ -43,4 +44,5 @@
 7. Прочее:
 
            1) Head First Java. 2nd Edition. Глава 1 – 5.
-           2) https://docs.github.com/ru      
+           2) https://docs.github.com/ru
+           3) https://www.oracle.com/java/technologies/javase/codeconventions-introduction.html
