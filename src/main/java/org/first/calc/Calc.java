@@ -1,20 +1,20 @@
 package org.first.calc;
 
 public class Calc {
-    public static void plusInt(int a, int b) {
-        System.out.println(a + b);
+    public static int plusInt(int a, int b) {
+        return a + b;
     }
 
-    public static void divInt(int a, int b) {
-        System.out.println(a / b);
+    public static int divInt(int a, int b) {
+        return a / b;
     }
 
-    public static void multiplyInt(int a, int b) {
-        System.out.println(a * b);
+    public static int multiplyInt(int a, int b) {
+        return a * b;
     }
 
-    public static void minusInt(int a, int b) {
-        System.out.println(a - b);
+    public static int minusInt(int a, int b) {
+        return a - b;
     }
 
     public static void main(String[] args) {
@@ -22,9 +22,9 @@ public class Calc {
         int six = 6;
         int four = 4;
         int five = 5;
-        divInt(six, two);
-        minusInt(five, two);
-        multiplyInt(four, two);
-        plusInt(two, six);
+        System.out.println(divInt(six, two));
+        System.out.println(minusInt(five, two));
+        System.out.println(multiplyInt(four, two));
+        System.out.println(plusInt(two, six));
     }
 }
