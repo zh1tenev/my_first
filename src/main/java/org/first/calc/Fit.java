@@ -1,18 +1,26 @@
 package org.first.calc;
 
 public class Fit {
-    public static float manWeight(float height) {
-        return (height - 100) * 1.15f;
+
+    /**
+     * Расчёт идеального веса мужчины по росту.
+     * Формула: (рост - 100) * 1.15
+     *
+     * @param height рост в сантиметрах
+     * @return идеальный вес в килограммах
+     */
+    public static double manWeight(double height) {
+        return (height - 100) * 1.15;
     }
 
-    public static float womanWeight(float height) {
-        return (height - 110) * 1.15f;
-    }
-
-    public static void main(String[] args) {
-        short height = 190;
-        short height2 = 169;
-        System.out.println("Man 190 is " + Fit.manWeight(height));
-        System.out.println("Man 169 is " + Fit.womanWeight(height2));
+    /**
+     * Расчёт идеального веса женщины по росту.
+     * Формула: (рост - 110) * 1.15
+     *
+     * @param height рост в сантиметрах
+     * @return идеальный вес в килограммах
+     */
+    public static double womanWeight(double height) {
+        return (height - 110) * 1.15;
     }
 }
